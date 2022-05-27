@@ -4,7 +4,7 @@
 
 Jennifer D'Souza, Anita Monteverdi, Muhammad Haris, Marco Anteghini, Kheir Eddine Farfar, Markus Stocker, Vitor AP Santos, and Sören Auer. [The Digitalization of Bioassays in the Open Research Knowledge Graph](https://arxiv.org/abs/2203.14574). arXiv preprint arXiv:2203.14574 (2022). The citation for our accepted paper in the DeXa 2022 proceedings is forthcoming.
 
-#### Motivating Use Case for Digitalized Bioassays
+#### Why Digitalize Bioassays?
 
 A biochemist wants to compare existing bioassays that have been historically performed on the SARS virus. 
 Assuming the availability of bioassays represented as machine-readable logical triple statements, 
