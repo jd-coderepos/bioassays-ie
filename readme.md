@@ -1,4 +1,4 @@
-## Bioassays in the Open Research Knowledge Graph - ORKG-Assays Microservice
+## The ORKG-Assays Microservice - Digitalization of Bioassays in the Open Research Knowledge Graph
 
 #### This repository hosts supplementary data to the following publication
 
