@@ -38,9 +38,9 @@ It uses an AI-based clustering algorithm which on gold-standard evaluations over
 
 <img src="docs/results-2.png" width="50%" height="50%"> </br> Table 2: Bioassay semantification results by K-means clustering of bioassay vectorized representations </br>
 
-The empirical results are presented in Tables 1 and 2, and discussed below in detail under three research questions (_*RQs*_).
+The empirical results are presented in Tables 1 and 2, and discussed below in detail under three research questions (_**RQs**_).
 
-_*RQ 1*: Is semantification by the top-n statements an effective method?_ 
+_**RQ 1**: Is semantification by the top-n statements an effective method?_ 
 In each of the five main columns in Table 1, viz. 'top 10' through 'top 50,' 
 n corresponds to the number of the most frequent statements assigned for each assay. 
 E.g., 'top 10' is the 10 most common statements; 
@@ -52,13 +52,13 @@ But the results show that this is certainly unlikely, since the highest recall o
 which is only steadily declining having achieved a peak value of 64.52% at 'top 20' statements. 
 Thus, the semantification task cannot be solved by the naive method since it cannot handle the semantification pattern variations across bioassays, proved for those in our dataset.
 
-_*RQ 2*: Is clustering suitable for bioassay semantification?_ 
+_**RQ 2**: Is clustering suitable for bioassay semantification?_ 
 Examining the bold F1 scores in Table 2 shows that it is. 
 Note that the lowest best F1 scores among the compared parameter settings are for 'Labels freq >= 4' at 0.63 and 0.66 for SciBERT and TF-IDF vectorizations, respectively. 
 This shows the method can achieve a performance better than chance. 
 On the other hand, the highest best F1 scores are for 'Labels freq >= 1' at 0.77 and 0.83 for SciBERT and TF-IDF vectorizations, respectively, which are strong performances for practical purposes. 
 
-_*RQ 3*: What can be concluded from TF-IDF versus SciBERT vectorization?_ 
+_**RQ 3**: What can be concluded from TF-IDF versus SciBERT vectorization?_ 
 This is a case-in-point for computing data-specific vectors. While [SciBERT](https://github.com/allenai/scibert) is pretrained on a dataset of Computer Science and Biomedical scholarly articles, 
 articles are still characteristically distinct from bioassay texts in terms of length and sectional organization. 
 Bioassays are short descriptions of 1 or 2 paragraphs with either none or very few sections. 
