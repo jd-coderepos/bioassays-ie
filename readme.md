@@ -4,7 +4,7 @@
 
 Jennifer D'Souza, Anita Monteverdi, Muhammad Haris, Marco Anteghini, Kheir Eddine Farfar, Markus Stocker, Vitor AP Santos, and Sören Auer. [The Digitalization of Bioassays in the Open Research Knowledge Graph](https://arxiv.org/abs/2203.14574). arXiv preprint arXiv:2203.14574 (2022). The citation for our accepted paper in the DeXa 2022 proceedings is forthcoming.
 
-#### Why Digitalize Bioassays? Motivating usecases.
+### Why Digitalize Bioassays? Motivating usecases.
 
 A biochemist wants to compare existing bioassays that have been historically performed on the SARS virus. 
 Assuming the availability of bioassays represented as machine-readable logical triple statements, 
@@ -27,14 +27,14 @@ In the context of the proposed work over bioassays, the ORKG digitalization serv
 Such KGs makes the bioassay data precisely _findable_ in accord with the [FAIR standards](https://www.go-fair.org/fair-principles/) advocated for research information. 
 Overall, this could lead to a considerable minimization of time in research --- important especially during emergencies such as the 2019 coronavirus pandemic owing to the Sars-Cov-2 virus.
 
-#### About
+### About
 
 ORKG-Assays is a freely available AI micro-service in ORKG written in Python designed to assist scientists obtain semantified bioassays as a set of triples. 
 It uses an AI-based clustering algorithm which on gold-standard evaluations over 900 bioassays with 5,514 unique property-value pairs for 103 predicates shows competitive performance.
 
 #### Detailed Experimental Results
 
-![Screenshot](docs/results.png)
+<img src="docs/results.png" width="50%" height="50%">
 
 #### Contact
 
