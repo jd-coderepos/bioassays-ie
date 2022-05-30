@@ -34,7 +34,14 @@ It uses an AI-based clustering algorithm which on gold-standard evaluations over
 
 #### Detailed Experimental Results
 
-<img src="docs/results.png" width="50%" height="50%">Caption</img>
+<img src="docs/results-1.png" width="50%" height="50%">
+
+Figure 1: Percentage bioassay semantification results by the naive method of most frequent labels assignment
+
+
+<img src="docs/results-2.png" width="50%" height="50%">
+
+Figure 2: Bioassay semantification results by K-means clustering of bioassay vectorized representations
 
 ### Contact
 
