@@ -34,8 +34,8 @@ It uses an AI-based clustering algorithm which on gold-standard evaluations over
 
 #### Detailed Experimental Results
 
-<img src="docs/results.png" width="50%" height="50%">
+<img src="docs/results.png" width="50%" height="50%">Caption</img>
 
-#### Contact
+### Contact
 
 For related questions, comments, feedback, and interests in collaborations, please contact me at: jennifer (dot) dsouza (at) tib (dot) eu
